@@ -1,0 +1,15 @@
+{
+  "author": "victor@hepoca.com",
+  "name": "STAqualinkdProxy",
+  "version": "0.0.0",
+  "description": "STAqualinkdProxy",
+  "main": "STAqualinkdProxy.js",
+  "scripts": {
+    "start": "node STAqualinkdProxy.js"
+  },  
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "nconf": "^0.10.0"
+  }
+}

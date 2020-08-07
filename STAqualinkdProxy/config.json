@@ -1,0 +1,87 @@
+{
+  "httpport": 3000,
+  "dscalarm": {
+    "alarmpassword": "1234",
+    "wincom": "COM3",
+    "linuxcom": "/dev/ttyUSB0",
+    "baudRate": 9600,
+    "panelConfig": {
+      "type": "discover",
+      "zones": [
+        {
+          "zone": "001",
+          "type": "contact",
+          "name": "DSCAlarmV2 Zone001"
+        },
+        {
+          "zone": "002",
+          "type": "contact",
+          "name": "DSCAlarmV2 Zone002"
+        },
+        {
+          "zone": "003",
+          "type": "contact",
+          "name": "DSCAlarmV2 Zone003"
+        },
+        {
+          "zone": "004",
+          "type": "contact",
+          "name": "DSCAlarmV2 Zone004"
+        },
+        {
+          "zone": "005",
+          "type": "contact",
+          "name": "DSCAlarmV2 Zone005"
+        },
+        {
+          "zone": "006",
+          "type": "contact",
+          "name": "DSCAlarmV2 Zone006"
+        }
+      ]
+    }
+  },
+  "notify": {
+    "address": "192.168.0.8",
+    "port": "39500"
+  },
+  "aqualinkd": {
+    "address": "aqualinkd.eduaralm.com",
+    "port": "80",
+    "panelConfig": {
+      "type": "status",
+      "status": "Ready",
+      "version": "PDA-PS6 Combo PPD PDA. 5.0",
+      "aqualinkd_version": "2.1.0",
+      "date": "FRI",
+      "time": "12:20PM",
+      "pool_htr_set_pnt": "86",
+      "spa_htr_set_pnt": "95",
+      "frz_protect_set_pnt": "38",
+      "air_temp": "97",
+      "pool_temp": "81",
+      "spa_temp": " ",
+      "swg_percent": "95",
+      "swg_ppm": "3500",
+      "temp_units": "f",
+      "battery": "ok",
+      "leds": {
+        "Filter_Pump": "on",
+        "Spa_Mode": "off",
+        "Aux_1": "off",
+        "Aux_2": "off",
+        "Aux_3": "off",
+        "Aux_4": "off",
+        "Aux_5": "off",
+        "Aux_6": "off",
+        "Aux_7": "off",
+        "Pool_Heater": "off",
+        "Spa_Heater": "off",
+        "Solar_Heater": "on",
+        "SWG": "off",
+        "SWG/Boost": "off",
+        "Freeze_Protect": "enabled"
+      }
+    }
+  }
+}
