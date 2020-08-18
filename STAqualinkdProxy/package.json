@@ -6,8 +6,9 @@
   "main": "STAqualinkdProxy.js",
   "scripts": {
     "start": "node STAqualinkdProxy.js"
-  },  
+  },
   "dependencies": {
+    "deep-diff": "^1.0.2",
     "express": "^4.17.1",
     "http": "0.0.0",
     "nconf": "^0.10.0"
